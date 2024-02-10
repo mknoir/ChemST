@@ -338,15 +338,15 @@ with tab2:
 
     st.divider()
 
-    st.write(f"# compounds in unfiltered data set: {molecules.shape[0]}")
+    st.write(f"Number of compounds in unfiltered data set: {molecules.shape[0]}")
 
     st.divider()
 
-    st.write(f"# compounds in filtered data set: {molecules_ro5_fulfilled.shape[0]}")
+    st.write(f"Number of compounds in filtered data set: {molecules_ro5_fulfilled.shape[0]}")
 
     st.divider()
 
-    st.write(f"# compounds not compliant with the Ro5: {molecules_ro5_violated.shape[0]}")
+    st.write(f"Number of compounds not compliant with the Ro5: {molecules_ro5_violated.shape[0]}")
 
     st.divider()
 
@@ -648,7 +648,7 @@ with tab3:
 
     st.dataframe(molecules_ro5_fulfilled_stats)
 
-    st.subheader("plotfor molecules that fullfill the Ro5:")
+    st.subheader("plot for molecules that fullfill the Ro5:")
 
  
 
