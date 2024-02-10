@@ -5,8 +5,7 @@ numpy
 chembl_webresource_client
 matplotlib
 tqdm
-array
 math
 pathlib
 plotly.express
-plotlys
+plotly
