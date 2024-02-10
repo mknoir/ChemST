@@ -5,4 +5,3 @@ numpy
 chembl_webresource_client
 matplotlib
 tqdm
-attrs==21.2.0
